@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <title>Break the Label</title>
+
+  <style>
+
+    body {
+      margin: 0;
+      font-family: "Trebuchet MS", Arial, sans-serif;
+      background: #fff0f6;
+      color: #2a2a2a;
+    }
+
+    header {
+      position: relative;
+      height: 420px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: white;
+      background: url("https://images.unsplash.com/photo-1529156069898-49953e39b3ac") center/cover no-repeat;
+    }
+
+    header::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(120deg, rgba(255,77,166,0.75), rgba(255,102,178,0.75));
+      z-index: 1;
+    }
+
+    header h1,
+    header p,
+    header h3 {
+      position: relative;
+      z-index: 2;
+    }
+
+    header h1 {
+      font-size: 52px;
+      margin: 0;
+    }
+
+    header p {
+      font-size: 20px;
+      margin-top: 10px;
+    }
+
+    header h3 {
+      margin-top: 15px;
+      font-weight: normal;
+      opacity: 0.95;
+    }
+
+    .container {
+      width: 92%;
+      max-width: 1050px;
+      margin: auto;
+      padding: 30px 0;
+    }
+
+    .section {
+      background: #ffffff;
+      margin: 30px 0;
+      padding: 35px;
+      border-radius: 18px;
+      box-shadow: 0 10px 25px rgba(255, 77, 166, 0.15);
+      border-top: 5px solid #ff4da6;
+    }
+
+    h2 {
+      color: #ff2f92;
+      font-size: 32px;
+      margin-top: 0;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 1.8;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 10px;
+      font-size: 17px;
+    }
+
+    img {
+      width: 100%;
+      border-radius: 14px;
+      margin-top: 20px;
+    }
+
+    .highlight {
+      background: #ffe0f0;
+      border-left: 6px solid #ff4da6;
+      padding: 18px;
+      margin-top: 20px;
+      border-radius: 10px;
+      font-size: 17px;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 13px 25px;
+      background: #ff4da6;
+      color: white;
+      text-decoration: none;
+      border-radius: 30px;
+      font-size: 16px;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #e60073;
+      transform: scale(1.05);
+    }
+
+    footer {
+      background: linear-gradient(120deg, #ff4da6, #ff66b2);
+      color: white;
+      text-align: center;
+      padding: 25px;
+      margin-top: 50px;
+      font-size: 16px;
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <header>
+    <h1>Break the Label</h1>
+    <p>Health & Poverty Without Stigma</p>
+    <h3>By Oluwadurotimi Durosinmi-Etti</h3>
+  </header>
+
+  <div class="container">
+
+    <div class="section">
+      <h2>Why This Campaign Matters</h2>
+
+      <p>
+        Across many societies, individuals living with health conditions or financial hardship are often judged unfairly rather than supported. These judgments create invisible barriers that affect confidence, access to opportunities, and overall quality of life.
+      </p>
+
+      <p>
+        The “Break the Label” campaign is designed to raise awareness about these issues and encourage empathy, understanding, and respect. It highlights how stigma can lead to isolation, emotional distress, and missed opportunities for people who are already facing challenges.
+      </p>
+
+      <img src="https://images.unsplash.com/photo-1521791136064-7986c2920216" alt="Awareness image">
+
+      <a class="btn" href="#problem">Explore More</a>
+    </div>
+
+    <div class="section" id="problem">
+      <h2>Understanding Stigmatization</h2>
+
+      <p>
+        Stigmatization refers to the negative labeling or unfair treatment of individuals based on their health status, appearance, identity, or social and economic situation. It often leads to exclusion, discrimination, and reduced access to support systems.
+      </p>
+
+      <p>
+        Poverty, in particular, is frequently misunderstood. Instead of recognizing structural causes such as unemployment, inequality, or lack of education, individuals are sometimes wrongly blamed for their circumstances.
+      </p>
+
+      <ul>
+        <li>Fear of speaking openly about personal struggles</li>
+        <li>Social exclusion from peers and community activities</li>
+        <li>Increased emotional stress and reduced self-esteem</li>
+        <li>Limited access to education and career opportunities</li>
+        <li>Ongoing discrimination in daily life</li>
+      </ul>
+
+      <img src="https://images.unsplash.com/photo-1517048676732-d65bc937f952" alt="Support image">
+    </div>
+
+    <div class="section">
+      <h2>Different Perspectives</h2>
+
+      <p>
+        Attitudes toward illness and poverty vary widely across the world. In some regions, stigma is still strongly present, causing individuals to hide their conditions or avoid seeking help due to fear of judgment.
+      </p>
+
+      <p>
+        In contrast, other societies focus on awareness, education, and inclusion. Through public health campaigns, school programs, and community initiatives, these societies work to replace misunderstanding with compassion and informed support.
+      </p>
+
+      <div class="highlight">
+        Global organizations such as the World Health Organization (WHO) and UNICEF continue to promote health education, reduce discrimination, and encourage equal access to support systems worldwide.
+      </div>
+
+      <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f" alt="Global image">
+    </div>
+
+    <div class="section">
+      <h2>Real-Life Experiences</h2>
+
+      <p>
+        Many individuals living with mental health challenges or financial difficulties face misunderstanding rather than empathy. This lack of support can make recovery and personal development even more difficult.
+      </p>
+
+      <p>
+        However, when schools, families, and communities provide encouragement and assistance, individuals are better able to rebuild confidence, improve their wellbeing, and move forward positively.
+      </p>
+
+      <img src="https://images.unsplash.com/photo-1511632765486-a01980e01a18" alt="Community image">
+    </div>
+
+    <div class="section">
+      <h2>How Society Can Help</h2>
+
+      <ul>
+        <li>Encourage respectful and informed conversations about health and poverty</li>
+        <li>Actively challenge stereotypes and misinformation</li>
+        <li>Support awareness campaigns and community initiatives</li>
+        <li>Promote mental health education in schools and workplaces</li>
+        <li>Build inclusive environments that welcome all individuals</li>
+      </ul>
+
+      <img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac" alt="Helping image">
+    </div>
+
+  </div>
+
+  <footer>
+    June 1, 2026 • Break the Label Awareness Campaign
+  </footer>
+
+</body>
+
+</html>
